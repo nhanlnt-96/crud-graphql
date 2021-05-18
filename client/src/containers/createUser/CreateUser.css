@@ -1,0 +1,31 @@
+form {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+form > input {
+  padding: 10px;
+  width: 300px;
+  margin-bottom: 10px;
+  outline: none;
+}
+
+form > input:focus {
+  border: 1px solid #c5e3f6;
+}
+
+form > button {
+  padding: 10px;
+  width: 100px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+form > button:hover{
+  background-color: #c5e3f6;
+}
