@@ -1,6 +1,8 @@
 import React from "react";
-import "./App.css";
 import RouterOutlet from "./routes/RouterOutlet";
+
+import "./App.css";
+import 'antd/dist/antd.css';
 
 function App() {
   return (
